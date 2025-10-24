@@ -1,0 +1,27 @@
+baseURL = "https://thaoprovt1.github.io/ThaoBlog/"
+languageCode = "en-us"
+title = "ThaoBlog"
+theme = "hugo-clarity"
+publishDir = "docs"
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  author = "Thảo"
+  description = "Blog cá nhân của Thảo — chia sẻ kiến thức về lập trình và công nghệ."
+  showReadingTime = true
+  showDate = true
+  enableMath = false
+  mainSections = ["posts"]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
