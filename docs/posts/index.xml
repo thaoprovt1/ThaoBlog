@@ -1,28 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on ThaoBlog</title>
-    <link>https://thaoprovt1.github.io/ThaoBlog/posts/</link>
-    <description>Recent content in Posts on ThaoBlog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 20 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://thaoprovt1.github.io/ThaoBlog/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello World</title>
-      <link>https://thaoprovt1.github.io/ThaoBlog/posts/hello-world/</link>
-      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/hello-world/</guid>
-      <description>
-        
-          
-            &lt;p&gt;Chào mừng bạn đến với &lt;strong&gt;ThaoBlog&lt;/strong&gt; 🎉&lt;br&gt;
-Đây là bài viết đầu tiên, dùng theme &lt;strong&gt;Hugo Clarity&lt;/strong&gt;.&lt;/p&gt;
-          
-          
-        
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on ThaoBlog</title><link>https://thaoprovt1.github.io/ThaoBlog/posts/</link><description>Recent content in Posts on ThaoBlog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 20 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://thaoprovt1.github.io/ThaoBlog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://thaoprovt1.github.io/ThaoBlog/posts/hello-world/</link><pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate><guid>https://thaoprovt1.github.io/ThaoBlog/posts/hello-world/</guid><description>
+&lt;p&gt;Chào mừng bạn đến với &lt;strong&gt;ThaoBlog&lt;/strong&gt; 🎉&lt;br&gt;
+Đây là bài viết đầu tiên, dùng theme &lt;strong&gt;Hugo Clarity&lt;/strong&gt;.&lt;/p&gt;</description></item></channel></rss>

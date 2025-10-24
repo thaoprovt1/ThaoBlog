@@ -25,3 +25,8 @@ publishDir = "docs"
     name = "About"
     url = "/about/"
     weight = 2
+
+[security]
+  enableInlineShortcodes = true
+  [security.sri]
+    enable = false
