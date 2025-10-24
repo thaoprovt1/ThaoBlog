@@ -27,6 +27,5 @@ publishDir = "docs"
     weight = 2
 
 [security]
-  enableInlineShortcodes = true
   [security.sri]
     enable = false
