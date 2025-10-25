@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lỗi on ThaoBlog</title>
+    <link>https://thaoprovt1.github.io/ThaoBlog/tags/l%E1%BB%97i/</link>
+    <description>Recent content in Lỗi on ThaoBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://thaoprovt1.github.io/ThaoBlog/tags/l%E1%BB%97i/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Khi lập trình mạng, lỗi hay gặp nhất là gì?</title>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/loithuonggap/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/loithuonggap/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Một vài lỗi “kinh điển” ai học cũng gặp:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sai &lt;strong&gt;địa chỉ IP&lt;/strong&gt; hoặc &lt;strong&gt;port&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Không &lt;strong&gt;đóng kết nối&lt;/strong&gt; sau khi gửi xong.&lt;/li&gt;
+&lt;li&gt;Quên &lt;strong&gt;encode/decode&lt;/strong&gt; khi truyền chuỗi.&lt;/li&gt;
+&lt;li&gt;Cố “send” dữ liệu khi server chưa sẵn sàng 😅&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Giải pháp:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;In log từng bước.&lt;/li&gt;
+&lt;li&gt;Dùng Wireshark hoặc netcat để kiểm tra.&lt;/li&gt;
+&lt;li&gt;Bình tĩnh, không hoảng 😤&lt;/li&gt;
+&lt;/ol&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Vấn đề muôn thuở: Code đúng, logic sai!</title>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/taisaolaisai/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/taisaolaisai/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Ai học lập trình rồi chắc đều từng bị cái này 😭&lt;br&gt;
+Chạy chương trình &lt;strong&gt;không báo lỗi&lt;/strong&gt;, nhưng &lt;strong&gt;kết quả sai bét&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Nguyên nhân?&lt;br&gt;
+=&amp;gt; Logic của mình sai.&lt;br&gt;
+=&amp;gt; Mình hiểu sai yêu cầu.&lt;br&gt;
+=&amp;gt; Hoặc “não mình lag tạm thời”.&lt;/p&gt;
+&lt;p&gt;Kinh nghiệm rút ra:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Code chạy được chưa chắc đúng. Hãy hiểu rõ &lt;strong&gt;vì sao&lt;/strong&gt; nó chạy được.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Đó là lý do học lập trình không chỉ là “gõ code”, mà còn là &lt;strong&gt;rèn tư duy logic&lt;/strong&gt;.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

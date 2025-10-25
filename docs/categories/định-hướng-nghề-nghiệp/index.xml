@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Định Hướng Nghề Nghiệp on ThaoBlog</title>
+    <link>https://thaoprovt1.github.io/ThaoBlog/categories/%C4%91%E1%BB%8Bnh-h%C6%B0%E1%BB%9Bng-ngh%E1%BB%81-nghi%E1%BB%87p/</link>
+    <description>Recent content in Định Hướng Nghề Nghiệp on ThaoBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://thaoprovt1.github.io/ThaoBlog/categories/%C4%91%E1%BB%8Bnh-h%C6%B0%E1%BB%9Bng-ngh%E1%BB%81-nghi%E1%BB%87p/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vì sao nên học lập trình mạng sớm?</title>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/taisaonenhoclaptrinhmangtusom/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/taisaonenhoclaptrinhmangtusom/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Học lập trình mạng giúp bạn hiểu cách Internet hoạt động — nền tảng cho mọi ứng dụng hiện nay.&lt;/p&gt;
+&lt;p&gt;Khi hiểu rõ:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cách request/response hoạt động.&lt;/li&gt;
+&lt;li&gt;Cách dữ liệu truyền qua TCP/IP.&lt;/li&gt;
+&lt;li&gt;Cách server xử lý client.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thì bạn làm &lt;strong&gt;web, game, IoT, cloud&lt;/strong&gt; đều dễ hơn.&lt;/p&gt;
+&lt;p&gt;Và quan trọng hơn:&lt;br&gt;
+Bạn sẽ không “sợ mạng”, mà biết cách tận dụng nó cho sản phẩm của mình 💪&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

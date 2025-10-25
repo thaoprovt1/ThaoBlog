@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cơ Bản on ThaoBlog</title>
+    <link>https://thaoprovt1.github.io/ThaoBlog/tags/c%C6%A1-b%E1%BA%A3n/</link>
+    <description>Recent content in Cơ Bản on ThaoBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://thaoprovt1.github.io/ThaoBlog/tags/c%C6%A1-b%E1%BA%A3n/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World - Giới thiệu</title>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/hello-world/</link>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/hello-world/</guid>
+      <description>
+        
+          
+            &lt;p&gt;🐴 Chào mừng bạn đến với &lt;strong&gt;ThaoBlog&lt;/strong&gt; 🎉&lt;br&gt;
+Đây là bài viết đầu tiên của mình, với theme được dùng là &lt;strong&gt;Hugo Clarity&lt;/strong&gt; Cho toàn bộ các trang.&lt;/p&gt;
+&lt;p&gt;Do đây là bài đầu tiên được tạo nên mình sẽ giới thiệu sơ qua về blog của mình cũng như các bài viết liên quan, cũng như lí do mình chọn các chủ đề đó và những trang blog đó chứa đựng những gì!&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Lập trình mạng là gì?</title>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/laptrinhmanglagi/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/laptrinhmanglagi/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Nghe “lập trình mạng” thì nhiều người sẽ nghĩ ngay tới hacker, ddos, server game hay mấy dòng lệnh đen thui gì gì đó trên màn hình.
+Nhưng thật ra &lt;strong&gt;lập trình mạng&lt;/strong&gt; chỉ đơn giản là việc lập trình có liên quan đến &lt;strong&gt;giao tiếp giữa các máy tính qua mạng&lt;/strong&gt; và việc lựa chọn ngôn ngữ lập trình phù hợp với bản thân.&lt;/p&gt;
+&lt;p&gt;Ví dụ về một số ngôn ngữ lập trình và khả năng, lợi ích và tác động mà nó mang lại:&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Lập trình socket là gì?</title>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/whatissocket/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/whatissocket/</guid>
+      <description>
+        
+          
+            &lt;p&gt;&lt;strong&gt;Socket&lt;/strong&gt; giống như “đường dây” giữa hai chương trình để gửi và nhận dữ liệu.&lt;/p&gt;
+&lt;p&gt;Ví dụ:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Client (máy người dùng) gửi tin nhắn.&lt;/li&gt;
+&lt;li&gt;Server nhận tin, xử lý, rồi phản hồi lại.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Trong code, bạn chỉ cần:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; socket
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;s &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; socket&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;socket()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;s&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;connect((&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;localhost&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;8080&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;s&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;send(&lt;span style=&#34;color:#e6db74&#34;&gt;b&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello server&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;thế là đã ping đến máy khác được r đó :D&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

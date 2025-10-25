@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ngôn Ngữ Lập Trình on ThaoBlog</title>
+    <link>https://thaoprovt1.github.io/ThaoBlog/tags/ng%C3%B4n-ng%E1%BB%AF-l%E1%BA%ADp-tr%C3%ACnh/</link>
+    <description>Recent content in Ngôn Ngữ Lập Trình on ThaoBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://thaoprovt1.github.io/ThaoBlog/tags/ng%C3%B4n-ng%E1%BB%AF-l%E1%BA%ADp-tr%C3%ACnh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Học lập trình mạng cần ngôn ngữ gì?</title>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/ngonngucanthiet/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/ngonngucanthiet/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Nhiều bạn hỏi “học lập trình mạng nên bắt đầu bằng gì?”.&lt;br&gt;
+Thật ra ngôn ngữ nào cũng được, quan trọng là &lt;strong&gt;hiểu cách máy tính giao tiếp với nhau&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Một số ngôn ngữ phổ biến:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Python&lt;/strong&gt;: Dễ học, có thư viện &lt;code&gt;socket&lt;/code&gt;, &lt;code&gt;requests&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;C/C++&lt;/strong&gt;: Mạnh mẽ, học sâu về tầng thấp.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Java&lt;/strong&gt;: Nhiều framework hỗ trợ networking.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Go&lt;/strong&gt;: Hiệu năng cao, dùng nhiều cho server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nếu mới bắt đầu, mình khuyên học &lt;strong&gt;Python trước&lt;/strong&gt; — code ít mà hiểu được nhiều 🤓&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

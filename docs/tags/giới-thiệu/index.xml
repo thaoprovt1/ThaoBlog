@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Giới Thiệu on ThaoBlog</title>
+    <link>https://thaoprovt1.github.io/ThaoBlog/tags/gi%E1%BB%9Bi-thi%E1%BB%87u/</link>
+    <description>Recent content in Giới Thiệu on ThaoBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://thaoprovt1.github.io/ThaoBlog/tags/gi%E1%BB%9Bi-thi%E1%BB%87u/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World - Giới thiệu</title>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/hello-world/</link>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/hello-world/</guid>
+      <description>
+        
+          
+            &lt;p&gt;🐴 Chào mừng bạn đến với &lt;strong&gt;ThaoBlog&lt;/strong&gt; 🎉&lt;br&gt;
+Đây là bài viết đầu tiên của mình, với theme được dùng là &lt;strong&gt;Hugo Clarity&lt;/strong&gt; Cho toàn bộ các trang.&lt;/p&gt;
+&lt;p&gt;Do đây là bài đầu tiên được tạo nên mình sẽ giới thiệu sơ qua về blog của mình cũng như các bài viết liên quan, cũng như lí do mình chọn các chủ đề đó và những trang blog đó chứa đựng những gì!&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

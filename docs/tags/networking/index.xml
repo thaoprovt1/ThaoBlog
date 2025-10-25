@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Networking on ThaoBlog</title>
+    <link>https://thaoprovt1.github.io/ThaoBlog/tags/networking/</link>
+    <description>Recent content in Networking on ThaoBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://thaoprovt1.github.io/ThaoBlog/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lập trình mạng là gì?</title>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/laptrinhmanglagi/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/laptrinhmanglagi/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Nghe “lập trình mạng” thì nhiều người sẽ nghĩ ngay tới hacker, ddos, server game hay mấy dòng lệnh đen thui gì gì đó trên màn hình.
+Nhưng thật ra &lt;strong&gt;lập trình mạng&lt;/strong&gt; chỉ đơn giản là việc lập trình có liên quan đến &lt;strong&gt;giao tiếp giữa các máy tính qua mạng&lt;/strong&gt; và việc lựa chọn ngôn ngữ lập trình phù hợp với bản thân.&lt;/p&gt;
+&lt;p&gt;Ví dụ về một số ngôn ngữ lập trình và khả năng, lợi ích và tác động mà nó mang lại:&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Những sai lầm khi mới học lập trình mạng</title>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/sailamcuanguoimoihoclaptrinhmang/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/sailamcuanguoimoihoclaptrinhmang/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Khi mới học, mình từng mắc mấy lỗi “ngớ ngẩn” sau 😅:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cố học lý thuyết mà không thực hành.&lt;/li&gt;
+&lt;li&gt;Không chịu đọc log khi lỗi.&lt;/li&gt;
+&lt;li&gt;Copy code trên mạng mà không hiểu.&lt;/li&gt;
+&lt;li&gt;Quên mất “mạng có độ trễ”!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Học lập trình mạng &lt;strong&gt;phải test thực tế&lt;/strong&gt;:&lt;br&gt;
+Chạy server, mở client, quan sát kết nối, xem log, phân tích.&lt;br&gt;
+Chỉ có thực hành mới hiểu được cách dữ liệu “chạy” qua mạng.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Vì sao nên học lập trình mạng sớm?</title>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/taisaonenhoclaptrinhmangtusom/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/taisaonenhoclaptrinhmangtusom/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Học lập trình mạng giúp bạn hiểu cách Internet hoạt động — nền tảng cho mọi ứng dụng hiện nay.&lt;/p&gt;
+&lt;p&gt;Khi hiểu rõ:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cách request/response hoạt động.&lt;/li&gt;
+&lt;li&gt;Cách dữ liệu truyền qua TCP/IP.&lt;/li&gt;
+&lt;li&gt;Cách server xử lý client.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thì bạn làm &lt;strong&gt;web, game, IoT, cloud&lt;/strong&gt; đều dễ hơn.&lt;/p&gt;
+&lt;p&gt;Và quan trọng hơn:&lt;br&gt;
+Bạn sẽ không “sợ mạng”, mà biết cách tận dụng nó cho sản phẩm của mình 💪&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

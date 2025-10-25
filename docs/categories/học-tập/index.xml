@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Học Tập on ThaoBlog</title>
+    <link>https://thaoprovt1.github.io/ThaoBlog/categories/h%E1%BB%8Dc-t%E1%BA%ADp/</link>
+    <description>Recent content in Học Tập on ThaoBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://thaoprovt1.github.io/ThaoBlog/categories/h%E1%BB%8Dc-t%E1%BA%ADp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Những sai lầm khi mới học lập trình mạng</title>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/sailamcuanguoimoihoclaptrinhmang/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/sailamcuanguoimoihoclaptrinhmang/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Khi mới học, mình từng mắc mấy lỗi “ngớ ngẩn” sau 😅:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cố học lý thuyết mà không thực hành.&lt;/li&gt;
+&lt;li&gt;Không chịu đọc log khi lỗi.&lt;/li&gt;
+&lt;li&gt;Copy code trên mạng mà không hiểu.&lt;/li&gt;
+&lt;li&gt;Quên mất “mạng có độ trễ”!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Học lập trình mạng &lt;strong&gt;phải test thực tế&lt;/strong&gt;:&lt;br&gt;
+Chạy server, mở client, quan sát kết nối, xem log, phân tích.&lt;br&gt;
+Chỉ có thực hành mới hiểu được cách dữ liệu “chạy” qua mạng.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
