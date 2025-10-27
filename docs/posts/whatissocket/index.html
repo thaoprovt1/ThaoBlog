@@ -80,7 +80,7 @@
         
 
   <div class="nav_parent">
-    <a href="https://thaoprovt1.github.io/ThaoBlog/" class="nav_item" title="Home">Home </a>
+    <a href="https://thaoprovt1.github.io/ThaoBlog/" class="nav_item" title="Home - Blogs">Home - Blogs </a>
   </div>
   <div class="nav_parent">
     <a href="https://thaoprovt1.github.io/ThaoBlog/about/" class="nav_item" title="About">About </a>
@@ -111,7 +111,7 @@
     <span class="post_date">
       Oct 11, 2025	  
     </span>
-    <span class="post_time"> · 1 phút để đọc</span><span>&nbsp;· <a href='https://thaoprovt1.github.io/ThaoBlog/tags/socket/' title="Socket" class="post_tag button button_translucent">Socket
+    <span class="post_time"> · 4 phút để đọc</span><span>&nbsp;· <a href='https://thaoprovt1.github.io/ThaoBlog/tags/socket/' title="Socket" class="post_tag button button_translucent">Socket
         </a><a href='https://thaoprovt1.github.io/ThaoBlog/tags/c%C6%A1-b%E1%BA%A3n/' title="Cơ bản" class="post_tag button button_translucent">Cơ bản
         </a>
     </span>
@@ -150,18 +150,156 @@
   </span>
   </div>
 
-    <div class="post_body"><p><strong>Socket</strong> giống như “đường dây” giữa hai chương trình để gửi và nhận dữ liệu.</p>
+    <div class="post_body"><p>Trong hệ thống mạng máy tính tồn tại những mô hình tham chiếu có kiến trúc phần tầng (OSI, TCP/IP…) nhằm hỗ trợ chức năng trao đôi thông tin giữa các ứng dụng ở nhiều máy tính khác nhau. Trong đó <strong>Socket</strong> giống như “đường dây” giữa hai chương trình để gửi và nhận dữ liệu.<br>
+<figure>
+  <picture>
+
+    
+      
+        
+        
+        
+        
+        
+        
+    <img
+      loading="lazy"
+      decoding="async"
+      alt="Ảnh minh họa"
+      
+        class="image_figure image_internal image_unprocessed"
+        src="https://thaoprovt1.github.io/ThaoBlog/images/socket_tcp_ip.jpg"
+      
+      
+    />
+
+    </picture>
+</figure>
+</p>
+<p>Dữ liệu bên gửi sẽ được đóng gói (Encapsulation) từ tầng trên đến tầng cuối là tầng vật lí (Physical Layer), sau đó nhờ tầng vật lí này chuyển dữ liệu đến tầng vật lí máy bên nhận, bên nhận tiến hành giải mã (decapsulation) gói dữ kiện từ tầng dưới lên tầng trên cùng, là tầng ứng dụng (application layer).</p>
+<p>Để đóng gói (Encapsulation) thông thường, người ta sẽ khai báo các biến là riêng tư (private), chủ yếu để hạn chế truy cập dữ liệu từ ngoài lớp (class). Rồi cung cấp các phương thức getter và setter (phương thức trung gian) cho phép truy cập dữ liệu. Với việc triển khai xác thực dữ liệu, người ta sẽ đảm tính toàn vẹn của dữ liệu bằng cách xác thực trước khi gán dữ liệu vào các thuộc tính của đối tượng (Object).</p>
 <p>Ví dụ:</p>
 <ul>
-<li>Client (máy người dùng) gửi tin nhắn.</li>
-<li>Server nhận tin, xử lý, rồi phản hồi lại.</li>
+<li>Client (máy người dùng) gửi tin nhắn (đã được đóng gói).</li>
+<li>Server nhận tin, xử lý (giải mã), rồi phản hồi lại.</li>
 </ul>
-<p>Trong code, bạn chỉ cần:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> socket
-</span></span><span style="display:flex;"><span>s <span style="color:#f92672">=</span> socket<span style="color:#f92672">.</span>socket()
-</span></span><span style="display:flex;"><span>s<span style="color:#f92672">.</span>connect((<span style="color:#e6db74">&#39;localhost&#39;</span>, <span style="color:#ae81ff">8080</span>))
-</span></span><span style="display:flex;"><span>s<span style="color:#f92672">.</span>send(<span style="color:#e6db74">b</span><span style="color:#e6db74">&#34;Hello server&#34;</span>)
-</span></span></code></pre></div><p>thế là đã ping đến máy khác được r đó :D</p>
+<p>Bạn muốn xem code mẫu? <a href="/ThaoBlog/posts/laptrinhmanglagi">Ấn vào đây!</a>.</p>
+<p><figure>
+  <picture>
+
+    
+      
+        
+        
+        
+        
+        
+        
+    <img
+      loading="lazy"
+      decoding="async"
+      alt="Tiếp tục với câu hỏi tiếp theo"
+      
+        class="image_figure image_internal image_unprocessed"
+        src="https://thaoprovt1.github.io/ThaoBlog/images/question_mark.jpg"
+      
+      
+    />
+
+    </picture>
+</figure>
+</p>
+<h4 id="vậy-thì-tại-sao-lại-phải-đóng-gói-dữ-liệu"><strong>Vậy thì tại sao lại phải đóng gói dữ liệu?</strong></h4>
+<ul>
+<li>Việc ẩn dữ liệu để tránh bị rò rỉ là một việc hết sức quan trọng, chỉ với việc một chút thông tin cực nhỏ bị rò rỉ, có thể bị kẻ xấu lợi dụng để truy cập trái phép và gây ra thiệt hại nghiêm trọng. Vì thế việc bảo vệ này nhằm đảm bảo tính toàn vẹn của dữ liệu và giúp ta tránh được những hậu quả không mong muốn.</li>
+<li>Nếu bạn bỏ qua bộ điều chỉnh quyền truy cập (riêng tư, được bảo vệ hoặc công khai), Java sẽ áp dụng bộ điều chỉnh quyền truy cập mặc định.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Java" data-lang="Java"><span style="display:flex;"><span><span style="color:#75715e">//Phương thức Mặc định</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyClass</span> {
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">int</span> myVariable; <span style="color:#75715e">//Khai báo biến theo mặc định</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">myMethod</span>() {
+</span></span><span style="display:flex;"><span>         System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;This is a default method&#34;</span>);
+</span></span><span style="display:flex;"><span>     } 
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>Từ khóa &ldquo;private&rdquo; khai báo các biến chỉ có thể truy cập được trong lớp (class) được khai báo. Các lớp khác trong cùng chương trình không thể truy cập các phương thức hoặc biến dữ liệu private này. Các lớp và giao diện không thể là private.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Java" data-lang="Java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Shape</span> {
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">double</span> area; <span style="color:#75715e">// Protected area</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">Shape</span>(<span style="color:#66d9ef">double</span> area) {
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">area</span> <span style="color:#f92672">=</span> area;
+</span></span><span style="display:flex;"><span>     }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">double</span> <span style="color:#a6e22e">getArea</span>() {
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">return</span> area;
+</span></span><span style="display:flex;"><span>     }
+</span></span><span style="display:flex;"><span> }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Circle</span> <span style="color:#66d9ef">extends</span> Shape {
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">double</span> radius;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">Circle</span>(<span style="color:#66d9ef">double</span> radius) {
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">super</span>(Math.<span style="color:#a6e22e">PI</span> <span style="color:#f92672">*</span> radius <span style="color:#f92672">*</span> radius); <span style="color:#75715e">// Calling parent constructor</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">radius</span> <span style="color:#f92672">=</span> radius;
+</span></span><span style="display:flex;"><span>     } 
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li>Đối với biến công khai, từ khóa &ldquo;public&rdquo; có phạm vi rộng nhất và có thể được truy cập từ bất kỳ đâu trong code, gần như không có giới hạn nào cả!</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Java" data-lang="Java"><span style="display:flex;"><span><span style="color:#75715e">//Public nè</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Rectangle</span> {
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">double</span> width; <span style="color:#75715e">// Public width</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">double</span> height; <span style="color:#75715e">// Public height</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">Rectangle</span>(<span style="color:#66d9ef">double</span> width, <span style="color:#66d9ef">double</span> height) {
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">width</span> <span style="color:#f92672">=</span> width;
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">height</span> <span style="color:#f92672">=</span> height;
+</span></span><span style="display:flex;"><span>     }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">double</span> <span style="color:#a6e22e">calculateArea</span>() {
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">return</span> width <span style="color:#f92672">*</span> height;
+</span></span><span style="display:flex;"><span>     } 
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h4 id="ví-dụ-đóng-gói-trong-java"><strong>Ví dụ: Đóng gói trong Java</strong></h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Java" data-lang="Java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Person</span> {
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">private</span> String name;
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">int</span> age;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>     <span style="color:#75715e">// Constructor</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">Person</span>(String name, <span style="color:#66d9ef">int</span> age) {
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">name</span> <span style="color:#f92672">=</span> name;
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">age</span> <span style="color:#f92672">=</span> age;
+</span></span><span style="display:flex;"><span>     }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>     <span style="color:#75715e">// Getters</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">getName</span>() {
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">return</span> name;
+</span></span><span style="display:flex;"><span>     }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">getAge</span>() {
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">return</span> age;
+</span></span><span style="display:flex;"><span>     }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>     <span style="color:#75715e">// Setters</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setName</span>(String name) {
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">name</span> <span style="color:#f92672">=</span> name;
+</span></span><span style="display:flex;"><span>     }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setAge</span>(<span style="color:#66d9ef">int</span> age) {
+</span></span><span style="display:flex;"><span>         <span style="color:#66d9ef">if</span> (age <span style="color:#f92672">&gt;=</span> 0) {
+</span></span><span style="display:flex;"><span>             <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">age</span> <span style="color:#f92672">=</span> age;
+</span></span><span style="display:flex;"><span>         } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>             System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Invalid age&#34;</span>);
+</span></span><span style="display:flex;"><span>         }
+</span></span><span style="display:flex;"><span>     } 
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Trong ví dụ trên, chúng ta đã khai báo hai biến riêng tư: name và age. Các phương thức getter công khai getName và getAge được sử dụng để truy cập các giá trị của name và age tương ứng. SetName và setAge là các phương thức setter công khai sửa đổi các biến name và age tương ứng.</p>
+<blockquote>
+<p>Tóm lại: Đóng gói là một trong những  khái niệm cốt lõi trong lập trình hướng đối tượng và mô tả việc đóng gói dữ liệu và phương thức hoạt động trên dữ liệu này thành một đơn vị.</p>
+</blockquote>
+<p>Bài viết khác mà bạn có thể thích: <a href="/ThaoBlog/posts/tcpvaudplagi">TCP và UDP khác nhau như thế nào?</a>.</p>
 
     </div><div class="post_comments">
   
@@ -196,9 +334,6 @@
     <h2 class="mt-4">Bài viết gần đây</h2>
     <ul class="flex-column">
       <li>
-        <a href="https://thaoprovt1.github.io/ThaoBlog/posts/taoserverpython/" class="nav-link" title="Cách tạo server đơn giản bằng Python">Cách tạo server đơn giản bằng Python</a>
-      </li>
-      <li>
         <a href="https://thaoprovt1.github.io/ThaoBlog/posts/ngonngucanthiet/" class="nav-link" title="Học lập trình mạng cần gì?">Học lập trình mạng cần gì?</a>
       </li>
       <li>
@@ -217,6 +352,9 @@
         <a href="https://thaoprovt1.github.io/ThaoBlog/posts/taisaolaisai/" class="nav-link" title="Vấn đề muôn thuở: Code đúng, logic sai!">Vấn đề muôn thuở: Code đúng, logic sai!</a>
       </li>
       <li>
+        <a href="https://thaoprovt1.github.io/ThaoBlog/posts/webjava/" class="nav-link" title="Về Java &amp; JavaScript">Về Java &amp; JavaScript</a>
+      </li>
+      <li>
         <a href="https://thaoprovt1.github.io/ThaoBlog/posts/taisaonenhoclaptrinhmangtusom/" class="nav-link" title="Vì sao nên học lập trình mạng sớm?">Vì sao nên học lập trình mạng sớm?</a>
       </li>
     </ul>
@@ -230,12 +368,7 @@
         
         <a href='https://thaoprovt1.github.io/ThaoBlog/categories/h%E1%BB%8Dc-t%E1%BA%ADp/' class="post_tag button button_translucent" title="học tập">
           HỌC TẬP
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='https://thaoprovt1.github.io/ThaoBlog/categories/th%E1%BB%B1c-h%C3%A0nh/' class="post_tag button button_translucent" title="thực hành">
-          THỰC HÀNH
-          <span class="button_tally">1</span>
+          <span class="button_tally">2</span>
         </a>
         
         <a href='https://thaoprovt1.github.io/ThaoBlog/categories/%C4%91%E1%BB%8Bnh-h%C6%B0%E1%BB%9Bng-ngh%E1%BB%81-nghi%E1%BB%87p/' class="post_tag button button_translucent" title="định hướng nghề nghiệp">
@@ -249,9 +382,14 @@
     <div>
       <h2 class="mt-4 taxonomy" id="tags-section">Thẻ</h2>
       <nav class="tags_nav">
+        <a href='https://thaoprovt1.github.io/ThaoBlog/tags/java/' class="post_tag button button_translucent" title="java">
+          JAVA
+          <span class="button_tally">5</span>
+        </a>
+        
         <a href='https://thaoprovt1.github.io/ThaoBlog/tags/c%C6%A1-b%E1%BA%A3n/' class="post_tag button button_translucent" title="cơ bản">
           CƠ BẢN
-          <span class="button_tally">3</span>
+          <span class="button_tally">4</span>
         </a>
         
         <a href='https://thaoprovt1.github.io/ThaoBlog/tags/networking/' class="post_tag button button_translucent" title="networking">
@@ -259,8 +397,23 @@
           <span class="button_tally">3</span>
         </a>
         
+        <a href='https://thaoprovt1.github.io/ThaoBlog/tags/c%E1%BA%A3m-nh%E1%BA%ADn/' class="post_tag button button_translucent" title="cảm nhận">
+          CẢM NHẬN
+          <span class="button_tally">2</span>
+        </a>
+        
         <a href='https://thaoprovt1.github.io/ThaoBlog/tags/debug/' class="post_tag button button_translucent" title="debug">
           DEBUG
+          <span class="button_tally">2</span>
+        </a>
+        
+        <a href='https://thaoprovt1.github.io/ThaoBlog/tags/gi%E1%BB%9Bi-thi%E1%BB%87u/' class="post_tag button button_translucent" title="giới thiệu">
+          GIỚI THIỆU
+          <span class="button_tally">2</span>
+        </a>
+        
+        <a href='https://thaoprovt1.github.io/ThaoBlog/tags/javascript/' class="post_tag button button_translucent" title="javascript">
+          JAVASCRIPT
           <span class="button_tally">2</span>
         </a>
         
@@ -269,19 +422,9 @@
           <span class="button_tally">2</span>
         </a>
         
-        <a href='https://thaoprovt1.github.io/ThaoBlog/tags/socket/' class="post_tag button button_translucent" title="socket">
-          SOCKET
+        <a href='https://thaoprovt1.github.io/ThaoBlog/tags/sinh-vi%C3%AAn/' class="post_tag button button_translucent" title="sinh viên">
+          SINH VIÊN
           <span class="button_tally">2</span>
-        </a>
-        
-        <a href='https://thaoprovt1.github.io/ThaoBlog/tags/c%E1%BA%A3m-nh%E1%BA%ADn/' class="post_tag button button_translucent" title="cảm nhận">
-          CẢM NHẬN
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='https://thaoprovt1.github.io/ThaoBlog/tags/gi%E1%BB%9Bi-thi%E1%BB%87u/' class="post_tag button button_translucent" title="giới thiệu">
-          GIỚI THIỆU
-          <span class="button_tally">1</span>
         </a>
         
         <a href='https://thaoprovt1.github.io/ThaoBlog/tags/h%E1%BB%8Dc-t%E1%BA%ADp/' class="post_tag button button_translucent" title="học tập">
@@ -299,13 +442,8 @@
           <span class="button_tally">1</span>
         </a>
         
-        <a href='https://thaoprovt1.github.io/ThaoBlog/tags/python/' class="post_tag button button_translucent" title="python">
-          PYTHON
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='https://thaoprovt1.github.io/ThaoBlog/tags/sinh-vi%C3%AAn/' class="post_tag button button_translucent" title="sinh viên">
-          SINH VIÊN
+        <a href='https://thaoprovt1.github.io/ThaoBlog/tags/socket/' class="post_tag button button_translucent" title="socket">
+          SOCKET
           <span class="button_tally">1</span>
         </a>
         

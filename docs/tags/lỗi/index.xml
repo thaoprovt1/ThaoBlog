@@ -16,19 +16,14 @@
       <description>
         
           
-            &lt;p&gt;Một vài lỗi “kinh điển” ai học cũng gặp:&lt;/p&gt;
+            &lt;p&gt;Một vài lỗi “kinh điển” ai học lập trình mạng cũng từng gặp qua ít nhất 1 lần:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Sai &lt;strong&gt;địa chỉ IP&lt;/strong&gt; hoặc &lt;strong&gt;port&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Không &lt;strong&gt;đóng kết nối&lt;/strong&gt; sau khi gửi xong.&lt;/li&gt;
+&lt;li&gt;Quên ngắt kết nối server (Server.java) sau khi chạy thử xong rồi tiếp tục code, sau khi sửa code server lại tiếp tục nhấn chạy để bị báo lỗi.&lt;/li&gt;
 &lt;li&gt;Quên &lt;strong&gt;encode/decode&lt;/strong&gt; khi truyền chuỗi.&lt;/li&gt;
-&lt;li&gt;Cố “send” dữ liệu khi server chưa sẵn sàng 😅&lt;/li&gt;
+&lt;li&gt;Lỗi nhỏ (như sai chính tả), nhưng khi hỏi chatGPT thì nó sửa gần hết code. 😤&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Giải pháp:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;In log từng bước.&lt;/li&gt;
-&lt;li&gt;Dùng Wireshark hoặc netcat để kiểm tra.&lt;/li&gt;
-&lt;li&gt;Bình tĩnh, không hoảng 😤&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;Giải pháp của người từng trải:&lt;/p&gt;
           
           
         

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript on ThaoBlog</title>
+    <link>https://thaoprovt1.github.io/ThaoBlog/tags/javascript/</link>
+    <description>Recent content in JavaScript on ThaoBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://thaoprovt1.github.io/ThaoBlog/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Học lập trình mạng cần gì?</title>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/ngonngucanthiet/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/ngonngucanthiet/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Nhiều bạn khi mới bắt đầu học lập trình mạng hoặc chỉ mới bắt đầu lập trình thường sẽ nghĩ “học lập trình nên bắt đầu bằng gì?” hay &amp;ldquo;nên học ngôn ngữ lập trình nào trước?&amp;rdquo;.&lt;br&gt;
+Thật ra ngôn ngữ nào cũng được, quan trọng là bạn &lt;strong&gt;hiểu được cách máy tính giao tiếp với nhau&lt;/strong&gt;.&lt;br&gt;
+Nhưng dĩ nhiên là mình cũng không khuyến khích học cùng lúc nhiều ngôn ngữ hoặc cố lập trình và học tất cả các ngôn ngữ lập trình.&lt;br&gt;
+Thay vào đó bạn có thể học một số ngôn ngữ lập trình phổ biến sau:&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Về Java &amp; JavaScript</title>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/webjava/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/webjava/</guid>
+      <description>
+        
+          
+            &lt;h3 id=&#34;tổng-quan&#34;&gt;&lt;strong&gt;Tổng Quan&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Hiện nay, việc tạo một dự án Java (Java application) mà không cần phải tốn quá nhiều công sức để viết từng dòng lệnh để có được một giao diện đẹp mắt, dễ dùng là một điều quá đỗi dễ dàng nếu so sánh với trước kia.&lt;br&gt;
+Để tạo ra những ứng dụng cho phép dễ dàng tạo và chỉnh sửa front-end, thì quá trình tạo ra nó sẽ khó như thế nào?&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

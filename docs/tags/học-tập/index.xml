@@ -16,15 +16,15 @@
       <description>
         
           
-            &lt;p&gt;Thật ra, &lt;strong&gt;khó hay dễ còn tùy người&lt;/strong&gt; 😅&lt;br&gt;
-Lập trình mạng không “khó” theo kiểu toán cao cấp, mà &lt;strong&gt;nó phức tạp vì có nhiều thứ phải hiểu cùng lúc&lt;/strong&gt;:&lt;/p&gt;
+            &lt;p&gt;Thật ra, khó hay dễ còn tùy thuộc vào mỗi người.
+Lập trình mạng không “khó” theo kiểu toán cao cấp, mà nó phức tạp vì có nhiều thứ phải hiểu cùng lúc như:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Cách hoạt động của &lt;strong&gt;socket&lt;/strong&gt;, &lt;strong&gt;IP&lt;/strong&gt;, &lt;strong&gt;port&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Giao thức như &lt;strong&gt;TCP&lt;/strong&gt;, &lt;strong&gt;UDP&lt;/strong&gt;, &lt;strong&gt;HTTP&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Và đặc biệt: &lt;strong&gt;debug lỗi mạng&lt;/strong&gt; khá mệt 🤯&lt;/li&gt;
+&lt;li&gt;Cách thức hoạt động của &lt;strong&gt;socket&lt;/strong&gt;, &lt;strong&gt;IP&lt;/strong&gt;, &lt;strong&gt;port&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Các Giao thức như &lt;strong&gt;TCP&lt;/strong&gt;, &lt;strong&gt;UDP&lt;/strong&gt;, &lt;strong&gt;HTTP&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Và đặc biệt là &lt;strong&gt;debug lỗi&lt;/strong&gt; cực kỳ khó chịu!&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Nhưng nếu bạn từng viết &lt;strong&gt;web&lt;/strong&gt;, &lt;strong&gt;game online&lt;/strong&gt;, hay &lt;strong&gt;ứng dụng chat&lt;/strong&gt;, thì bạn đang làm lập trình mạng rồi đó!&lt;br&gt;
-Nó chỉ khó khi mình chưa thử thôi.&lt;/p&gt;
+&lt;p&gt;Nhưng nếu bạn từng viết/làm &lt;strong&gt;web&lt;/strong&gt;, &lt;strong&gt;game online&lt;/strong&gt;, hay &lt;strong&gt;ứng dụng chat&lt;/strong&gt;, thì bạn đang làm lập trình mạng rồi đó!&lt;br&gt;
+Nó chỉ khó nếu mình chưa đủ cố gắng thôi!&lt;/p&gt;
           
           
         

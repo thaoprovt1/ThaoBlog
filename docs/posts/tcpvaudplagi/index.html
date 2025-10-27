@@ -80,7 +80,7 @@
         
 
   <div class="nav_parent">
-    <a href="https://thaoprovt1.github.io/ThaoBlog/" class="nav_item" title="Home">Home </a>
+    <a href="https://thaoprovt1.github.io/ThaoBlog/" class="nav_item" title="Home - Blogs">Home - Blogs </a>
   </div>
   <div class="nav_parent">
     <a href="https://thaoprovt1.github.io/ThaoBlog/about/" class="nav_item" title="About">About </a>
@@ -111,7 +111,7 @@
     <span class="post_date">
       Oct 11, 2025	  
     </span>
-    <span class="post_time"> · 2 phút để đọc</span><span>&nbsp;· <a href='https://thaoprovt1.github.io/ThaoBlog/tags/tcp/' title="TCP" class="post_tag button button_translucent">TCP
+    <span class="post_time"> · 4 phút để đọc</span><span>&nbsp;· <a href='https://thaoprovt1.github.io/ThaoBlog/tags/tcp/' title="TCP" class="post_tag button button_translucent">TCP
         </a><a href='https://thaoprovt1.github.io/ThaoBlog/tags/udp/' title="UDP" class="post_tag button button_translucent">UDP
         </a>
     </span>
@@ -151,7 +151,7 @@
   </div>
 
     <div class="post_body"><p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<h4 id="giao-thức-tcp-tranmission-control-protocol-la-gi">Giao thức TCP (Tranmission Control Protocol) là gì?</h4>
+<h4 id="giao-thức-tcp-tranmission-control-protocol-la-gi"><strong>Giao thức TCP (Tranmission Control Protocol) là gì?</strong></h4>
 <p><figure>
   <picture>
 
@@ -207,7 +207,7 @@ TCP là một giao thức mạng được dùng trong việc truyền gửi dữ
     </picture>
 </figure>
 </p>
-<h4 id="giao-thức-udp-user-datagram-protocol-la-gi">Giao thức UDP (User Datagram Protocol) là gì?</h4>
+<h4 id="giao-thức-udp-user-datagram-protocol-la-gi"><strong>Giao thức UDP (User Datagram Protocol) là gì?</strong></h4>
 <p>UDP được định nghĩa là giao thức dữ liệu người dùng, đây là giao thức giao tiếp thay thế cho giao thức mạng truyền dữ liệu <a href="#TCP">TCP</a>, UDP được áp dụng vào việc tùy chỉnh, cài đặt những kết nối có độ trễ thấp và không chịu lỗi giữa các ứng dụng ở môi trường internet.</p>
 <blockquote>
 <p><figure>
@@ -236,38 +236,88 @@ TCP là một giao thức mạng được dùng trong việc truyền gửi dữ
 </figure>
 </p>
 </blockquote>
-<p>TCP và UDP đều dùng để gửi dữ liệu qua mạng, nhưng cách hoạt động thì khác nhau hoàn toàn.</p>
+<h4 id="ưu-và-nhược-điểm-của-tcp"><strong>Ưu và nhược điểm của TCP</strong></h4>
 <table>
   <thead>
       <tr>
-          <th>TCP</th>
-          <th>UDP</th>
+          <th>Ưu điểm</th>
+          <th>Nhược Điểm</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td>Có kết nối (connection)</td>
-          <td>Không cần kết nối</td>
+          <td>- Hỗ trợ cài đặt kết nối các loại máy tính khác nhau.</td>
+          <td>TCP sẽ không bao giờ dừng lại quá trình truyền tin mà không yêu cầu chi tiết tất cả dữ liệu đang chuyển động.</td>
       </tr>
       <tr>
-          <td>Đảm bảo dữ liệu đến nơi</td>
-          <td>Không đảm bảo</td>
+          <td>Vận hành riêng biệt với hệ điều hành.</td>
+          <td>Người dùng cũng không thể dùng để truyền phát hay truyền đa hướng.</td>
       </tr>
       <tr>
-          <td>Gửi chậm hơn nhưng an toàn</td>
-          <td>Gửi nhanh, không cần kiểm tra</td>
+          <td>Hỗ trợ đa dạng giao thức định tuyến.</td>
+          <td>Người dùng cần phải tạo ranh giới riêng cho mình vì TCP không có ranh giới khối.</td>
       </tr>
       <tr>
-          <td>Dùng trong web, email</td>
-          <td>Dùng trong game, stream, VoIP</td>
+          <td>Giúp Internet và các tổ chức kết nối với nhau.</td>
+          <td>Có một số tính năng mà người dùng không mong muốn từ TCP. Những tính năng này gây lãng phí băng thông, chiếm thời gian hoặc tốn công.</td>
+      </tr>
+      <tr>
+          <td>Với kiến ​​trúc client-server mô hình TCP/IP dễ dàng nâng cao.</td>
+          <td>Mô hình hóa lớp truyền tải không chịu trách nhiệm việc phân phối các gói tin.</td>
+      </tr>
+      <tr>
+          <td>Vận hành độc lập.</td>
+          <td>Việc thế chỗ giao thức trong TCP/IP rất khó khăn.</td>
+      </tr>
+      <tr>
+          <td>TCP được áp dụng vào việc thiết lập kết nối giữa hai máy tính với nhau.</td>
+          <td>Không cung cấp sự minh bạch với các dịch vụ, giao diện và giao thức của nó.</td>
       </tr>
   </tbody>
 </table>
+<h4 id="ưu-và-nhược-điểm-của-udp"><strong>Ưu và nhược điểm của UDP</strong></h4>
+<table>
+  <thead>
+      <tr>
+          <th>Ưu điểm</th>
+          <th>Nhược điểm</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Không giới hạn bạn với một mô hình giao tiếp dựa trên kết nối. Chính vì thế mà độ trễ khởi động của các ứng dụng phân tán thấp.</td>
+          <td>Với UDP, trên cùng một gói tin có khả năng sẽ không được phân phối hoặc phân phối lần hai. Quá trình truyền sẽ không được diễn ra theo thứ tự.</td>
+      </tr>
+      <tr>
+          <td>Chúng không được quản lý bởi người nhận, nó bao gồm các ranh giới khối.</td>
+          <td>Trong trường hợp xảy ra xung đột thì các router sẽ không thực hiện truyền lại lần nữa.</td>
+      </tr>
+      <tr>
+          <td>UDP có thể truyền phát và truyền đa hướng.</td>
+          <td>UDP không tích hợp Congestion Control và tính năng kiểm soát luồng, vì thế ứng dụng người dùng sẽ đảm nhiệm việc triển khai.</td>
+      </tr>
+      <tr>
+          <td>Có thể diễn ra việc mất dữ liệu.</td>
+          <td>Tình trạng bị mất gói nghiêm trọng hơn thường xuyên xảy ra tại UDP.</td>
+      </tr>
+      <tr>
+          <td>Giao dịch nhỏ (DNS lookup).</td>
+          <td>Xin hết</td>
+      </tr>
+      <tr>
+          <td>Ứng dụng chuyên dụng về băng thông cho phép hiện tượng mất gói.</td>
+          <td></td>
+      </tr>
+  </tbody>
+</table>
+<p>=&gt; TCP và UDP đều là những giao thức để gửi dữ liệu hay các gói tin qua mạng, nhưng cách hoạt động thì khác nhau hoàn toàn.</p>
+<blockquote>
 <p>Tóm lại:</p>
 <ul>
 <li>Cần <strong>chính xác</strong> → dùng <strong>TCP</strong></li>
 <li>Cần <strong>tốc độ</strong> → dùng <strong>UDP</strong></li>
 </ul>
+</blockquote>
 
     </div><div class="post_comments">
   
@@ -302,9 +352,6 @@ TCP là một giao thức mạng được dùng trong việc truyền gửi dữ
     <h2 class="mt-4">Bài viết gần đây</h2>
     <ul class="flex-column">
       <li>
-        <a href="https://thaoprovt1.github.io/ThaoBlog/posts/taoserverpython/" class="nav-link" title="Cách tạo server đơn giản bằng Python">Cách tạo server đơn giản bằng Python</a>
-      </li>
-      <li>
         <a href="https://thaoprovt1.github.io/ThaoBlog/posts/ngonngucanthiet/" class="nav-link" title="Học lập trình mạng cần gì?">Học lập trình mạng cần gì?</a>
       </li>
       <li>
@@ -323,6 +370,9 @@ TCP là một giao thức mạng được dùng trong việc truyền gửi dữ
         <a href="https://thaoprovt1.github.io/ThaoBlog/posts/taisaolaisai/" class="nav-link" title="Vấn đề muôn thuở: Code đúng, logic sai!">Vấn đề muôn thuở: Code đúng, logic sai!</a>
       </li>
       <li>
+        <a href="https://thaoprovt1.github.io/ThaoBlog/posts/webjava/" class="nav-link" title="Về Java &amp; JavaScript">Về Java &amp; JavaScript</a>
+      </li>
+      <li>
         <a href="https://thaoprovt1.github.io/ThaoBlog/posts/taisaonenhoclaptrinhmangtusom/" class="nav-link" title="Vì sao nên học lập trình mạng sớm?">Vì sao nên học lập trình mạng sớm?</a>
       </li>
     </ul>
@@ -336,12 +386,7 @@ TCP là một giao thức mạng được dùng trong việc truyền gửi dữ
         
         <a href='https://thaoprovt1.github.io/ThaoBlog/categories/h%E1%BB%8Dc-t%E1%BA%ADp/' class="post_tag button button_translucent" title="học tập">
           HỌC TẬP
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='https://thaoprovt1.github.io/ThaoBlog/categories/th%E1%BB%B1c-h%C3%A0nh/' class="post_tag button button_translucent" title="thực hành">
-          THỰC HÀNH
-          <span class="button_tally">1</span>
+          <span class="button_tally">2</span>
         </a>
         
         <a href='https://thaoprovt1.github.io/ThaoBlog/categories/%C4%91%E1%BB%8Bnh-h%C6%B0%E1%BB%9Bng-ngh%E1%BB%81-nghi%E1%BB%87p/' class="post_tag button button_translucent" title="định hướng nghề nghiệp">
@@ -355,9 +400,14 @@ TCP là một giao thức mạng được dùng trong việc truyền gửi dữ
     <div>
       <h2 class="mt-4 taxonomy" id="tags-section">Thẻ</h2>
       <nav class="tags_nav">
+        <a href='https://thaoprovt1.github.io/ThaoBlog/tags/java/' class="post_tag button button_translucent" title="java">
+          JAVA
+          <span class="button_tally">5</span>
+        </a>
+        
         <a href='https://thaoprovt1.github.io/ThaoBlog/tags/c%C6%A1-b%E1%BA%A3n/' class="post_tag button button_translucent" title="cơ bản">
           CƠ BẢN
-          <span class="button_tally">3</span>
+          <span class="button_tally">4</span>
         </a>
         
         <a href='https://thaoprovt1.github.io/ThaoBlog/tags/networking/' class="post_tag button button_translucent" title="networking">
@@ -365,8 +415,23 @@ TCP là một giao thức mạng được dùng trong việc truyền gửi dữ
           <span class="button_tally">3</span>
         </a>
         
+        <a href='https://thaoprovt1.github.io/ThaoBlog/tags/c%E1%BA%A3m-nh%E1%BA%ADn/' class="post_tag button button_translucent" title="cảm nhận">
+          CẢM NHẬN
+          <span class="button_tally">2</span>
+        </a>
+        
         <a href='https://thaoprovt1.github.io/ThaoBlog/tags/debug/' class="post_tag button button_translucent" title="debug">
           DEBUG
+          <span class="button_tally">2</span>
+        </a>
+        
+        <a href='https://thaoprovt1.github.io/ThaoBlog/tags/gi%E1%BB%9Bi-thi%E1%BB%87u/' class="post_tag button button_translucent" title="giới thiệu">
+          GIỚI THIỆU
+          <span class="button_tally">2</span>
+        </a>
+        
+        <a href='https://thaoprovt1.github.io/ThaoBlog/tags/javascript/' class="post_tag button button_translucent" title="javascript">
+          JAVASCRIPT
           <span class="button_tally">2</span>
         </a>
         
@@ -375,19 +440,9 @@ TCP là một giao thức mạng được dùng trong việc truyền gửi dữ
           <span class="button_tally">2</span>
         </a>
         
-        <a href='https://thaoprovt1.github.io/ThaoBlog/tags/socket/' class="post_tag button button_translucent" title="socket">
-          SOCKET
+        <a href='https://thaoprovt1.github.io/ThaoBlog/tags/sinh-vi%C3%AAn/' class="post_tag button button_translucent" title="sinh viên">
+          SINH VIÊN
           <span class="button_tally">2</span>
-        </a>
-        
-        <a href='https://thaoprovt1.github.io/ThaoBlog/tags/c%E1%BA%A3m-nh%E1%BA%ADn/' class="post_tag button button_translucent" title="cảm nhận">
-          CẢM NHẬN
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='https://thaoprovt1.github.io/ThaoBlog/tags/gi%E1%BB%9Bi-thi%E1%BB%87u/' class="post_tag button button_translucent" title="giới thiệu">
-          GIỚI THIỆU
-          <span class="button_tally">1</span>
         </a>
         
         <a href='https://thaoprovt1.github.io/ThaoBlog/tags/h%E1%BB%8Dc-t%E1%BA%ADp/' class="post_tag button button_translucent" title="học tập">
@@ -405,13 +460,8 @@ TCP là một giao thức mạng được dùng trong việc truyền gửi dữ
           <span class="button_tally">1</span>
         </a>
         
-        <a href='https://thaoprovt1.github.io/ThaoBlog/tags/python/' class="post_tag button button_translucent" title="python">
-          PYTHON
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='https://thaoprovt1.github.io/ThaoBlog/tags/sinh-vi%C3%AAn/' class="post_tag button button_translucent" title="sinh viên">
-          SINH VIÊN
+        <a href='https://thaoprovt1.github.io/ThaoBlog/tags/socket/' class="post_tag button button_translucent" title="socket">
+          SOCKET
           <span class="button_tally">1</span>
         </a>
         

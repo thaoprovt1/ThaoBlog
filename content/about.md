@@ -6,10 +6,16 @@ draft: false
 
 - Xin chào, đây là trang giới thiệu về mình 🐴.
 - Mình là Lê Quang Thảo, một sinh viên thuộc trường Đại học công nghệ Sài Gòn (HUTECH)
+
+![Ảnh mình đi chơi ở Đà Lạt :3](images/MyPicture(smaller).jpg)
+
 Cơ sở chính mà mình đang học là tại Thủ Đức.
-Để mà nói thì mình cũng chịu khó học, nhưng không giỏi, cũng không quá siêng năng nhưng luôn làm mọi thứ vừa sức và vừa lòng mọi người để tránh bốc trúng sít rịt :D
-- Có thể bạn nghĩ mình hơi nghiêm túc quá, đó là do chúng ta chưa đủ thân! Vì thế đừng nghĩ nữa, mà hãy nghỉ ngơi, ăn đủ ngủ đủ, vui chơi vừa phải, biết đâu có gì đó sẽ xảy ra thì sao?
+Để mà nói thì mình cũng khá ham chơi, học cũng tạm, cũng không quá siêng năng nhưng luôn làm mọi thứ vừa sức và luôn hoàn thành những việc được giao nếu nó nằm trong khả năng của mình.
+- Có thể bạn nghĩ mình hơi nghiêm túc quá, đó là do chúng ta chưa đủ thân! Vì thế đừng nghĩ nữa, mà hãy nghỉ ngơi, ăn đủ ngủ đủ, vui chơi vừa phải, biết đâu có gì đó sẽ xảy ra thì sao? (idk)
+- Mặc dù phải đi xa để tới trường, nhưng nó cũng không quá khó khăn, mà đa số các bạn cũng đều chọn đi xa vì bạn biết đấy... Thời buổi bây giờ mà ở trọ 1 mình hoặc ở ghép với người lạ cũng khá là khó khăn và không đủ độ tin cậy. Một phần cũng do giá cả bị lạm phát, gì cũng lên giá có mỗi lương là không lên được.
 ---
 Với những thông tin cơ bản bên trên chắc bạn cũng đoán được phần nào rằng mình là người thế nào rồi nhỉ? 
 ~Thôi thì coi như là hiểu nhau rồi và bấm next sang trang khác để tiếp tục nha!
->- A reminder: Always work hard, but keep it safe and play it cool, don't touch the hot pot.
+>- Hãy làm việc chăm chỉ, nhưng đừng quá chăm chỉ, hãy làm vừa đủ, vừa sức, và biết đâu là việc nên làm, đâu là việc nên tránh làm!
+
+!Gợi ý bài viết mà bạn nên xem: [Hello, World!](/ThaoBlog/posts/hello-world).

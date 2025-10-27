@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on ThaoBlog</title>
+    <link>https://thaoprovt1.github.io/ThaoBlog/tags/java/</link>
+    <description>Recent content in Java on ThaoBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://thaoprovt1.github.io/ThaoBlog/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World - Giới thiệu</title>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/hello-world/</link>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/hello-world/</guid>
+      <description>
+        
+          
+            &lt;p&gt;🐴 Chào mừng bạn đến với &lt;strong&gt;ThaoBlog&lt;/strong&gt; 🎉&lt;br&gt;
+Đây là bài viết đầu tiên của mình, với theme được dùng là &lt;strong&gt;Hugo Clarity&lt;/strong&gt; Cho toàn bộ các trang &amp;lt;&lt;a href=&#34;https://themes.gohugo.io/themes/hugo-clarity&#34;&gt;Hugo-Clarity&lt;/a&gt;&amp;gt;.&lt;/p&gt;
+&lt;p&gt;Do đây là bài đầu tiên được tạo nên mình sẽ giới thiệu sơ qua về blog của mình cũng như các bài viết liên quan, cũng như lí do mình chọn các chủ đề đó và những trang blog đó chứa đựng những gì!&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Lập trình mạng là gì?</title>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/laptrinhmanglagi/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/laptrinhmanglagi/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Nghe “lập trình mạng” thì nhiều người sẽ nghĩ ngay tới hacker, ddos, server game hay mấy dòng lệnh đen thui gì gì đó trên màn hình.
+Nhưng thật ra &lt;strong&gt;lập trình mạng&lt;/strong&gt; chỉ đơn giản là việc lập trình có liên quan đến &lt;strong&gt;giao tiếp giữa các máy tính qua mạng&lt;/strong&gt; và việc lựa chọn ngôn ngữ lập trình phù hợp với bản thân.&lt;/p&gt;
+&lt;p&gt;Đối với mạng, có 4 loại mạng cơ bản là: LAN, MAN, WAN, PAN.
+&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;Ảnh mạng&#34;
+      
+        class=&#34;image_figure image_internal image_unprocessed&#34;
+        src=&#34;https://thaoprovt1.github.io/ThaoBlog/images/manglagi.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Học lập trình mạng cần gì?</title>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/ngonngucanthiet/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/ngonngucanthiet/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Nhiều bạn khi mới bắt đầu học lập trình mạng hoặc chỉ mới bắt đầu lập trình thường sẽ nghĩ “học lập trình nên bắt đầu bằng gì?” hay &amp;ldquo;nên học ngôn ngữ lập trình nào trước?&amp;rdquo;.&lt;br&gt;
+Thật ra ngôn ngữ nào cũng được, quan trọng là bạn &lt;strong&gt;hiểu được cách máy tính giao tiếp với nhau&lt;/strong&gt;.&lt;br&gt;
+Nhưng dĩ nhiên là mình cũng không khuyến khích học cùng lúc nhiều ngôn ngữ hoặc cố lập trình và học tất cả các ngôn ngữ lập trình.&lt;br&gt;
+Thay vào đó bạn có thể học một số ngôn ngữ lập trình phổ biến sau:&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Khi lập trình mạng, lỗi hay gặp nhất là gì?</title>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/loithuonggap/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/loithuonggap/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Một vài lỗi “kinh điển” ai học lập trình mạng cũng từng gặp qua ít nhất 1 lần:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sai &lt;strong&gt;địa chỉ IP&lt;/strong&gt; hoặc &lt;strong&gt;port&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Quên ngắt kết nối server (Server.java) sau khi chạy thử xong rồi tiếp tục code, sau khi sửa code server lại tiếp tục nhấn chạy để bị báo lỗi.&lt;/li&gt;
+&lt;li&gt;Quên &lt;strong&gt;encode/decode&lt;/strong&gt; khi truyền chuỗi.&lt;/li&gt;
+&lt;li&gt;Lỗi nhỏ (như sai chính tả), nhưng khi hỏi chatGPT thì nó sửa gần hết code. 😤&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Giải pháp của người từng trải:&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Về Java &amp; JavaScript</title>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/webjava/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/webjava/</guid>
+      <description>
+        
+          
+            &lt;h3 id=&#34;tổng-quan&#34;&gt;&lt;strong&gt;Tổng Quan&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Hiện nay, việc tạo một dự án Java (Java application) mà không cần phải tốn quá nhiều công sức để viết từng dòng lệnh để có được một giao diện đẹp mắt, dễ dùng là một điều quá đỗi dễ dàng nếu so sánh với trước kia.&lt;br&gt;
+Để tạo ra những ứng dụng cho phép dễ dàng tạo và chỉnh sửa front-end, thì quá trình tạo ra nó sẽ khó như thế nào?&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

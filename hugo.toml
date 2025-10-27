@@ -23,7 +23,7 @@ defaultContentLanguage = "vi"
 
 [menu]
   [[menu.main]]
-    name = "Home"
+    name = "Home - Blogs"
     url = "/"
     weight = 1
 

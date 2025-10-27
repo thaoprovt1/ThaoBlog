@@ -3,7 +3,7 @@ title: "Học lập trình mạng cần gì?"
 date: 2025-10-11
 description: "Giới thiệu các ngôn ngữ phổ biến khi học lập trình mạng."
 categories: ["Lập trình mạng"]
-tags: ["Ngôn ngữ lập trình"]
+tags: ["Ngôn ngữ lập trình", "Java", "JavaScript"]
 ---
 
 Nhiều bạn khi mới bắt đầu học lập trình mạng hoặc chỉ mới bắt đầu lập trình thường sẽ nghĩ “học lập trình nên bắt đầu bằng gì?” hay "nên học ngôn ngữ lập trình nào trước?".  

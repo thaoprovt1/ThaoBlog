@@ -8,6 +8,30 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://thaoprovt1.github.io/ThaoBlog/tags/sinh-vi%C3%AAn/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Lập trình mạng có khó không? Tại sao?</title>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/taisaolaikho/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/taisaolaikho/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Thật ra, khó hay dễ còn tùy thuộc vào mỗi người.
+Lập trình mạng không “khó” theo kiểu toán cao cấp, mà nó phức tạp vì có nhiều thứ phải hiểu cùng lúc như:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cách thức hoạt động của &lt;strong&gt;socket&lt;/strong&gt;, &lt;strong&gt;IP&lt;/strong&gt;, &lt;strong&gt;port&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Các Giao thức như &lt;strong&gt;TCP&lt;/strong&gt;, &lt;strong&gt;UDP&lt;/strong&gt;, &lt;strong&gt;HTTP&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Và đặc biệt là &lt;strong&gt;debug lỗi&lt;/strong&gt; cực kỳ khó chịu!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nhưng nếu bạn từng viết/làm &lt;strong&gt;web&lt;/strong&gt;, &lt;strong&gt;game online&lt;/strong&gt;, hay &lt;strong&gt;ứng dụng chat&lt;/strong&gt;, thì bạn đang làm lập trình mạng rồi đó!&lt;br&gt;
+Nó chỉ khó nếu mình chưa đủ cố gắng thôi!&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Vì sao nên học lập trình mạng sớm?</title>
       <link>https://thaoprovt1.github.io/ThaoBlog/posts/taisaonenhoclaptrinhmangtusom/</link>
       <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>

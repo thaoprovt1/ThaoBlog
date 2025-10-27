@@ -3,7 +3,7 @@ title: "Hello World - Giới thiệu"
 date: 2025-10-24
 description: "Chỉ là lời chào đầu tiên đến thế giới :D"
 categories: ["Lập trình mạng"]
-tags: ["Cơ bản", "Giới thiệu"]
+tags: ["Cơ bản", "Giới thiệu", "Java"]
 featured: true
 ---
 
@@ -15,7 +15,7 @@ Do đây là bài đầu tiên được tạo nên mình sẽ giới thiệu sơ
 Một phần lí do bài viết này có tiêu đề là Hello World cũng do từ khóa "Hello World" là linh hồn của dân IT và cũng như là lời chào đầu tiên gửi đến thế giới từ chương trình của một lập trình viên, mình thật sự rất biết ơn những người tiên phong đã tạo ra một bầu trời mới cho nền công nghệ hiện nay.
 
 "Hello, World!" trong lập trình bắt nguồn từ cuốn sách "A Tutorial Introduction to the Programming Language B" xuất bản năm 1973 và được [Brian Kernighan](https://vi.wikipedia.org/wiki/Brian_Kernighan) sử dụng để làm ví dụ trong cuốn "The C Programming Language" năm 1978, với bối cảnh là một ví dụ đơn giản để bắt đầu một ngôn ngữ lập trình. Nó còn có cả một bộ phim hoạt hình cùng tên là "Hello World" ra mắt tại Nhật Bản vào năm 2019! :D
-![Ảnh chụp ngài Brian Kernighan tại Bell Labs năm 2012](images/Ngai_Brian_Kernighan.jpg)
+![Ảnh chụp ngài Brian Kernighan tại Bell Labs năm 2012 | Source: https://vi.wikipedia.org/wiki/Brian_Kernighan](images/Ngai_Brian_Kernighan.jpg)
 
 - **Bối cảnh và thời gian ra đời** 
 Thời gian: Năm 1973, trong cuốn sách "A Tutorial Introduction to the Programming Language B".
@@ -29,6 +29,8 @@ Người sáng lập: Ngài Brian Kernighan đã sử dụng nó làm ví dụ t
 
 Sự xuất hiện của những ý tưởng vĩ đại, làm thay đổi thời đại, luôn luôn tìm tòi và sáng tạo là những lí do chính giúp cho thế giới phát triển như bây giờ. Cùng với đó là sự ra đời của rất nhiều thuật toán, ngôn ngữ lập trình, chương trình máy tính cực kì tinh vi và phức tạp.  
 Nhưng tại blog này, chúng ta sẽ tập trung vào việc hiểu "Lập trình mạng máy tính" là gì bởi đây là một phần giới thiệu mở đầu!
+
+Nếu bạn muốn tìm hiểu nhiều hơn về Brian Kernighan thì [ấn vào đây!](https://vi.wikipedia.org/wiki/Brian_Kernighan)
 
 **Vậy thì lập trình mạng là gì ta hãy cùng tìm hiểu sơ qua nhé:**
 - "Lập trình mạng" là một lĩnh vực liên quan đến kết nối internet, xây dựng các chương trình có khả năng trao đổi dữ liệu mà trong đó một máy chủ và một máy khách có thể trao đổi dữ liệu với nhau thông qua kết nối internet hoặc mạng LAN (mạng nội bộ), nói một cách dễ hiểu hơn thì nó là sự di chuyển một dạng tín hiệu điện/quang đến một nơi rồi khi nó chạm vào một công tắc nào đó, nó lại quay về (Đây là quá trình gửi và nhận tín hiệu).

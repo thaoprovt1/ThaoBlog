@@ -3,7 +3,7 @@ title: "Lập trình mạng là gì?"
 date: 2025-10-23
 description: "Giải thích khái niệm lập trình mạng một cách dễ hiểu cho sinh viên công nghệ."
 categories: ["Lập trình mạng"]
-tags: ["Networking", "Cơ bản"]
+tags: ["Networking", "Cơ bản", "Java"]
 featured: true
 ---
 

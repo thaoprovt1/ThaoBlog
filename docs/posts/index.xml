@@ -69,23 +69,6 @@ Nhưng thật ra &lt;strong&gt;lập trình mạng&lt;/strong&gt; chỉ đơn gi
     </item>
     
     <item>
-      <title>Cách tạo server đơn giản bằng Python</title>
-      <link>https://thaoprovt1.github.io/ThaoBlog/posts/taoserverpython/</link>
-      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/taoserverpython/</guid>
-      <description>
-        
-          
-            &lt;p&gt;Bạn cần chia sẻ nhanh các file trong mạng nội bộ? Hay bạn là một lập trình viên web cần một cách siêu tốc để kiểm thử giao diện HTML, CSS, JavaScript của mình? Đừng vội nghĩ đến những thiết lập phức tạp hay những chương trình lớn. Với Python được cài đặt sẵn trên máy, bạn có thể khởi tạo một máy chủ web (web server) chỉ trong vài phút ngắn ngủi!.&lt;br&gt;
-Hãy cùng khám phá module http.server có sẵn của Python nhé!&lt;/p&gt;
-          
-          
-        
-      </description>
-    </item>
-    
-    <item>
       <title>Học lập trình mạng cần gì?</title>
       <link>https://thaoprovt1.github.io/ThaoBlog/posts/ngonngucanthiet/</link>
       <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
@@ -113,19 +96,14 @@ Thay vào đó bạn có thể học một số ngôn ngữ lập trình phổ b
       <description>
         
           
-            &lt;p&gt;Một vài lỗi “kinh điển” ai học cũng gặp:&lt;/p&gt;
+            &lt;p&gt;Một vài lỗi “kinh điển” ai học lập trình mạng cũng từng gặp qua ít nhất 1 lần:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Sai &lt;strong&gt;địa chỉ IP&lt;/strong&gt; hoặc &lt;strong&gt;port&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Không &lt;strong&gt;đóng kết nối&lt;/strong&gt; sau khi gửi xong.&lt;/li&gt;
+&lt;li&gt;Quên ngắt kết nối server (Server.java) sau khi chạy thử xong rồi tiếp tục code, sau khi sửa code server lại tiếp tục nhấn chạy để bị báo lỗi.&lt;/li&gt;
 &lt;li&gt;Quên &lt;strong&gt;encode/decode&lt;/strong&gt; khi truyền chuỗi.&lt;/li&gt;
-&lt;li&gt;Cố “send” dữ liệu khi server chưa sẵn sàng 😅&lt;/li&gt;
+&lt;li&gt;Lỗi nhỏ (như sai chính tả), nhưng khi hỏi chatGPT thì nó sửa gần hết code. 😤&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Giải pháp:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;In log từng bước.&lt;/li&gt;
-&lt;li&gt;Dùng Wireshark hoặc netcat để kiểm tra.&lt;/li&gt;
-&lt;li&gt;Bình tĩnh, không hoảng 😤&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;Giải pháp của người từng trải:&lt;/p&gt;
           
           
         
@@ -141,15 +119,15 @@ Thay vào đó bạn có thể học một số ngôn ngữ lập trình phổ b
       <description>
         
           
-            &lt;p&gt;Thật ra, &lt;strong&gt;khó hay dễ còn tùy người&lt;/strong&gt; 😅&lt;br&gt;
-Lập trình mạng không “khó” theo kiểu toán cao cấp, mà &lt;strong&gt;nó phức tạp vì có nhiều thứ phải hiểu cùng lúc&lt;/strong&gt;:&lt;/p&gt;
+            &lt;p&gt;Thật ra, khó hay dễ còn tùy thuộc vào mỗi người.
+Lập trình mạng không “khó” theo kiểu toán cao cấp, mà nó phức tạp vì có nhiều thứ phải hiểu cùng lúc như:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Cách hoạt động của &lt;strong&gt;socket&lt;/strong&gt;, &lt;strong&gt;IP&lt;/strong&gt;, &lt;strong&gt;port&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Giao thức như &lt;strong&gt;TCP&lt;/strong&gt;, &lt;strong&gt;UDP&lt;/strong&gt;, &lt;strong&gt;HTTP&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Và đặc biệt: &lt;strong&gt;debug lỗi mạng&lt;/strong&gt; khá mệt 🤯&lt;/li&gt;
+&lt;li&gt;Cách thức hoạt động của &lt;strong&gt;socket&lt;/strong&gt;, &lt;strong&gt;IP&lt;/strong&gt;, &lt;strong&gt;port&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Các Giao thức như &lt;strong&gt;TCP&lt;/strong&gt;, &lt;strong&gt;UDP&lt;/strong&gt;, &lt;strong&gt;HTTP&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Và đặc biệt là &lt;strong&gt;debug lỗi&lt;/strong&gt; cực kỳ khó chịu!&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Nhưng nếu bạn từng viết &lt;strong&gt;web&lt;/strong&gt;, &lt;strong&gt;game online&lt;/strong&gt;, hay &lt;strong&gt;ứng dụng chat&lt;/strong&gt;, thì bạn đang làm lập trình mạng rồi đó!&lt;br&gt;
-Nó chỉ khó khi mình chưa thử thôi.&lt;/p&gt;
+&lt;p&gt;Nhưng nếu bạn từng viết/làm &lt;strong&gt;web&lt;/strong&gt;, &lt;strong&gt;game online&lt;/strong&gt;, hay &lt;strong&gt;ứng dụng chat&lt;/strong&gt;, thì bạn đang làm lập trình mạng rồi đó!&lt;br&gt;
+Nó chỉ khó nếu mình chưa đủ cố gắng thôi!&lt;/p&gt;
           
           
         
@@ -165,18 +143,33 @@ Nó chỉ khó khi mình chưa thử thôi.&lt;/p&gt;
       <description>
         
           
-            &lt;p&gt;&lt;strong&gt;Socket&lt;/strong&gt; giống như “đường dây” giữa hai chương trình để gửi và nhận dữ liệu.&lt;/p&gt;
-&lt;p&gt;Ví dụ:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Client (máy người dùng) gửi tin nhắn.&lt;/li&gt;
-&lt;li&gt;Server nhận tin, xử lý, rồi phản hồi lại.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Trong code, bạn chỉ cần:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; socket
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;s &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; socket&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;socket()
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;s&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;connect((&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;localhost&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;8080&lt;/span&gt;))
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;s&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;send(&lt;span style=&#34;color:#e6db74&#34;&gt;b&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello server&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;thế là đã ping đến máy khác được r đó :D&lt;/p&gt;
+            &lt;p&gt;Trong hệ thống mạng máy tính tồn tại những mô hình tham chiếu có kiến trúc phần tầng (OSI, TCP/IP…) nhằm hỗ trợ chức năng trao đôi thông tin giữa các ứng dụng ở nhiều máy tính khác nhau. Trong đó &lt;strong&gt;Socket&lt;/strong&gt; giống như “đường dây” giữa hai chương trình để gửi và nhận dữ liệu.&lt;br&gt;
+&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;Ảnh minh họa&#34;
+      
+        class=&#34;image_figure image_internal image_unprocessed&#34;
+        src=&#34;https://thaoprovt1.github.io/ThaoBlog/images/socket_tcp_ip.jpg&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Dữ liệu bên gửi sẽ được đóng gói (Encapsulation) từ tầng trên đến tầng cuối là tầng vật lí (Physical Layer), sau đó nhờ tầng vật lí này chuyển dữ liệu đến tầng vật lí máy bên nhận, bên nhận tiến hành giải mã (decapsulation) gói dữ kiện từ tầng dưới lên tầng trên cùng, là tầng ứng dụng (application layer).&lt;/p&gt;
           
           
         
@@ -218,7 +211,7 @@ Chỉ có thực hành mới hiểu được cách dữ liệu “chạy” qua 
         
           
             &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;h4 id=&#34;giao-thức-tcp-tranmission-control-protocol-la-gi&#34;&gt;Giao thức TCP (Tranmission Control Protocol) là gì?&lt;/h4&gt;
+&lt;h4 id=&#34;giao-thức-tcp-tranmission-control-protocol-la-gi&#34;&gt;&lt;strong&gt;Giao thức TCP (Tranmission Control Protocol) là gì?&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;figure&gt;
   &lt;picture&gt;
 
@@ -278,6 +271,24 @@ Chạy chương trình &lt;strong&gt;không báo lỗi&lt;/strong&gt;, nhưng &l
     </item>
     
     <item>
+      <title>Về Java &amp; JavaScript</title>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/webjava/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/webjava/</guid>
+      <description>
+        
+          
+            &lt;h3 id=&#34;tổng-quan&#34;&gt;&lt;strong&gt;Tổng Quan&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Hiện nay, việc tạo một dự án Java (Java application) mà không cần phải tốn quá nhiều công sức để viết từng dòng lệnh để có được một giao diện đẹp mắt, dễ dùng là một điều quá đỗi dễ dàng nếu so sánh với trước kia.&lt;br&gt;
+Để tạo ra những ứng dụng cho phép dễ dàng tạo và chỉnh sửa front-end, thì quá trình tạo ra nó sẽ khó như thế nào?&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
       <title>Vì sao nên học lập trình mạng sớm?</title>
       <link>https://thaoprovt1.github.io/ThaoBlog/posts/taisaonenhoclaptrinhmangtusom/</link>
       <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
@@ -304,10 +315,10 @@ Bạn sẽ không “sợ mạng”, mà biết cách tận dụng nó cho sản
     
     <item>
       <title></title>
-      <link>https://thaoprovt1.github.io/ThaoBlog/posts/tongquanvejavascript/</link>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/javascriptgigido/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/tongquanvejavascript/</guid>
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/javascriptgigido/</guid>
       <description>
         
           
