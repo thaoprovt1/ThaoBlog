@@ -16,16 +16,10 @@
       <description>
         
           
-            &lt;p&gt;Nhiều bạn hỏi “học lập trình mạng nên bắt đầu bằng gì?”.&lt;br&gt;
-Thật ra ngôn ngữ nào cũng được, quan trọng là &lt;strong&gt;hiểu cách máy tính giao tiếp với nhau&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Một số ngôn ngữ phổ biến:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Python&lt;/strong&gt;: Dễ học, có thư viện &lt;code&gt;socket&lt;/code&gt;, &lt;code&gt;requests&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;C/C++&lt;/strong&gt;: Mạnh mẽ, học sâu về tầng thấp.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Java&lt;/strong&gt;: Nhiều framework hỗ trợ networking.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Go&lt;/strong&gt;: Hiệu năng cao, dùng nhiều cho server.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Nếu mới bắt đầu, mình khuyên học &lt;strong&gt;Python trước&lt;/strong&gt; — code ít mà hiểu được nhiều 🤓&lt;/p&gt;
+            &lt;p&gt;Nhiều bạn khi mới bắt đầu học lập trình mạng hoặc chỉ mới bắt đầu lập trình thường sẽ nghĩ “học lập trình nên bắt đầu bằng gì?” hay &amp;ldquo;nên học ngôn ngữ lập trình nào trước?&amp;rdquo;.&lt;br&gt;
+Thật ra ngôn ngữ nào cũng được, quan trọng là bạn &lt;strong&gt;hiểu được cách máy tính giao tiếp với nhau&lt;/strong&gt;.&lt;br&gt;
+Nhưng dĩ nhiên là mình cũng không khuyến khích học cùng lúc nhiều ngôn ngữ hoặc cố lập trình và học tất cả các ngôn ngữ lập trình.&lt;br&gt;
+Thay vào đó bạn có thể học một số ngôn ngữ lập trình phổ biến sau:&lt;/p&gt;
           
           
         

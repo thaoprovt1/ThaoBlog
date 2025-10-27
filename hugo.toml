@@ -3,17 +3,19 @@ languageCode = "en-us"
 title = "ThaoBlog"
 theme = "hugo-clarity"
 publishDir = "docs"
+defaultContentLanguage = "vi"
 
 [pagination]
   pagerSize = 10
 
 [params]
-  author = "Thảo"
+  author = "Thảo 666"
   description = "Blog cá nhân của Thảo — chia sẻ kiến thức về lập trình và công nghệ."
   showReadingTime = true
   showDate = true
   enableMath = false
   mainSections = ["posts"]
+  enableSearch = true
 
 [menu]
   [[menu.main]]

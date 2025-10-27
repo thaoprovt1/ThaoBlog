@@ -17,7 +17,7 @@
         
           
             &lt;p&gt;🐴 Chào mừng bạn đến với &lt;strong&gt;ThaoBlog&lt;/strong&gt; 🎉&lt;br&gt;
-Đây là bài viết đầu tiên của mình, với theme được dùng là &lt;strong&gt;Hugo Clarity&lt;/strong&gt; Cho toàn bộ các trang.&lt;/p&gt;
+Đây là bài viết đầu tiên của mình, với theme được dùng là &lt;strong&gt;Hugo Clarity&lt;/strong&gt; Cho toàn bộ các trang &amp;lt;&lt;a href=&#34;https://themes.gohugo.io/themes/hugo-clarity&#34;&gt;Hugo-Clarity&lt;/a&gt;&amp;gt;.&lt;/p&gt;
 &lt;p&gt;Do đây là bài đầu tiên được tạo nên mình sẽ giới thiệu sơ qua về blog của mình cũng như các bài viết liên quan, cũng như lí do mình chọn các chủ đề đó và những trang blog đó chứa đựng những gì!&lt;/p&gt;
           
           
@@ -36,7 +36,32 @@
           
             &lt;p&gt;Nghe “lập trình mạng” thì nhiều người sẽ nghĩ ngay tới hacker, ddos, server game hay mấy dòng lệnh đen thui gì gì đó trên màn hình.
 Nhưng thật ra &lt;strong&gt;lập trình mạng&lt;/strong&gt; chỉ đơn giản là việc lập trình có liên quan đến &lt;strong&gt;giao tiếp giữa các máy tính qua mạng&lt;/strong&gt; và việc lựa chọn ngôn ngữ lập trình phù hợp với bản thân.&lt;/p&gt;
-&lt;p&gt;Ví dụ về một số ngôn ngữ lập trình và khả năng, lợi ích và tác động mà nó mang lại:&lt;/p&gt;
+&lt;p&gt;Đối với mạng, có 4 loại mạng cơ bản là: LAN, MAN, WAN, PAN.
+&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;Ảnh mạng&#34;
+      
+        class=&#34;image_figure image_internal image_unprocessed&#34;
+        src=&#34;https://thaoprovt1.github.io/ThaoBlog/images/manglagi.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
           
           
         
@@ -83,16 +108,10 @@ Nhưng thật ra &lt;strong&gt;lập trình mạng&lt;/strong&gt; chỉ đơn gi
       <description>
         
           
-            &lt;p&gt;Nhiều bạn hỏi “học lập trình mạng nên bắt đầu bằng gì?”.&lt;br&gt;
-Thật ra ngôn ngữ nào cũng được, quan trọng là &lt;strong&gt;hiểu cách máy tính giao tiếp với nhau&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Một số ngôn ngữ phổ biến:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Python&lt;/strong&gt;: Dễ học, có thư viện &lt;code&gt;socket&lt;/code&gt;, &lt;code&gt;requests&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;C/C++&lt;/strong&gt;: Mạnh mẽ, học sâu về tầng thấp.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Java&lt;/strong&gt;: Nhiều framework hỗ trợ networking.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Go&lt;/strong&gt;: Hiệu năng cao, dùng nhiều cho server.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Nếu mới bắt đầu, mình khuyên học &lt;strong&gt;Python trước&lt;/strong&gt; — code ít mà hiểu được nhiều 🤓&lt;/p&gt;
+            &lt;p&gt;Nhiều bạn khi mới bắt đầu học lập trình mạng hoặc chỉ mới bắt đầu lập trình thường sẽ nghĩ “học lập trình nên bắt đầu bằng gì?” hay &amp;ldquo;nên học ngôn ngữ lập trình nào trước?&amp;rdquo;.&lt;br&gt;
+Thật ra ngôn ngữ nào cũng được, quan trọng là bạn &lt;strong&gt;hiểu được cách máy tính giao tiếp với nhau&lt;/strong&gt;.&lt;br&gt;
+Nhưng dĩ nhiên là mình cũng không khuyến khích học cùng lúc nhiều ngôn ngữ hoặc cố lập trình và học tất cả các ngôn ngữ lập trình.&lt;br&gt;
+Thay vào đó bạn có thể học một số ngôn ngữ lập trình phổ biến sau:&lt;/p&gt;
           
           
         
@@ -295,6 +314,20 @@ Chạy chương trình &lt;strong&gt;không báo lỗi&lt;/strong&gt;, nhưng &l
 &lt;p&gt;Thì bạn làm &lt;strong&gt;web, game, IoT, cloud&lt;/strong&gt; đều dễ hơn.&lt;/p&gt;
 &lt;p&gt;Và quan trọng hơn:&lt;br&gt;
 Bạn sẽ không “sợ mạng”, mà biết cách tận dụng nó cho sản phẩm của mình 💪&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://thaoprovt1.github.io/ThaoBlog/posts/tongquanvejavascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thaoprovt1.github.io/ThaoBlog/posts/tongquanvejavascript/</guid>
+      <description>
+        
           
           
         
