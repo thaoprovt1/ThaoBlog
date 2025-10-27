@@ -46,3 +46,6 @@ UDP được định nghĩa là giao thức dữ liệu người dùng, đây l�
 >Tóm lại:
 >- Cần **chính xác** → dùng **TCP**  
 >- Cần **tốc độ** → dùng **UDP**
+
+💡 Bài viết khác nên xem: [Lỗi thường gặp?](/ThaoBlog/posts/loithuonggap).
+💡 Gợi ý cho bạn: [Java và JavaScript là gì?](/ThaoBlog/posts/webjava).

@@ -25,3 +25,5 @@ Code không phải là học ngày một ngày hai là có thể như các tay l
 
 >Tóm lại: Giữ tỉnh táo, kiên nhẫn xử lý tình huống thì mọi chuyện sẽ đâu ra đó, dù là hơi tốn nhiều thời gian hơn so với những người khác đi nữa.
 ![](images/CatPointingAtViewer.png)
+
+💡 Bài viết khác mà bạn nên xem: [Tại sao lại khó?](/ThaoBlog/posts/taisaolaikho).

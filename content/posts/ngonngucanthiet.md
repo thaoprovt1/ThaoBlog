@@ -26,3 +26,4 @@ Ngoài ra lập trình mạng còn có dịch vụ web HTML, được thông qua
 >#### Tham gia khóa học lập trình tại khoa Công nghệ thông tin của trường Đại học HUTECH với đa dạng các ngành và chuyên ngành!
 ![Ảnh trường tôi, nguồn: https://www.hutech.edu.vn/mediaen](images/hutechMySchool.png)
 
+Bài viết kế tiếp mà bạn nên xem: [TCP và UDP](/ThaoBlog/posts/tcpvaudplagi/)

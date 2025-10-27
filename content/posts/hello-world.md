@@ -42,4 +42,5 @@ Tới đây chắc bạn đã hiểu cơ bản nó là gì rồi, nhưng để n
 
 > 🐴 Tại website này có một số bài viết khác tương tự, bạn chọn thẻ giống bài viết này để dễ lọc ra nhé!
 
-💡 Bài tiếp theo mà bạn nên xem: [Lập Trình Mạng là gì?](/ThaoBlog/posts/laptrinhmanglagi).
+💡 Bài tiếp theo mà bạn nên xem: [Lập Trình Mạng là gì?](/ThaoBlog/posts/laptrinhmanglagi).  
+💡 Gợi ý cho bạn: [Java và JavaScript là gì?](/ThaoBlog/posts/webjava).
