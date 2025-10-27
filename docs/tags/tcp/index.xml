@@ -16,38 +16,34 @@
       <description>
         
           
-            &lt;p&gt;TCP và UDP đều dùng để gửi dữ liệu qua mạng, nhưng cách hoạt động thì khác nhau hoàn toàn.&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;TCP&lt;/th&gt;
-          &lt;th&gt;UDP&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Có kết nối (connection)&lt;/td&gt;
-          &lt;td&gt;Không cần kết nối&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Đảm bảo dữ liệu đến nơi&lt;/td&gt;
-          &lt;td&gt;Không đảm bảo&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Gửi chậm hơn nhưng an toàn&lt;/td&gt;
-          &lt;td&gt;Gửi nhanh, không cần kiểm tra&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Dùng trong web, email&lt;/td&gt;
-          &lt;td&gt;Dùng trong game, stream, VoIP&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Tóm lại:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Cần &lt;strong&gt;chính xác&lt;/strong&gt; → dùng &lt;strong&gt;TCP&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Cần &lt;strong&gt;tốc độ&lt;/strong&gt; → dùng &lt;strong&gt;UDP&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
+            &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h4 id=&#34;giao-thức-tcp-tranmission-control-protocol-la-gi&#34;&gt;Giao thức TCP (Tranmission Control Protocol) là gì?&lt;/h4&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;Google | TCP là gì?&#34;
+      
+        class=&#34;image_figure image_internal image_unprocessed&#34;
+        src=&#34;https://thaoprovt1.github.io/ThaoBlog/images/whatistcp.png&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+
+TCP là một giao thức mạng được dùng trong việc truyền gửi dữ liệu từ một mạng này đến một mạng khác. Một giao thức trong phạm vi mạng bao gồm những quy tắc và thứ tự quản lý quá trình truyền dữ liệu sao cho người dùng trên toàn cầu dù ở đâu, trên nền tảng gì, phần mềm nào cũng đều được phép thao tác theo cùng một phương thức tương tự nhau thì được gọi là TCP.&lt;/p&gt;
           
           
         

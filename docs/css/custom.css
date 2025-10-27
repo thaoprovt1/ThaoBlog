@@ -1,0 +1,35 @@
+[data-theme="dark"] {
+    --light: #000;             /* Màu sáng trong dark mode */
+    --dark: #fff;              /* Màu tối (chữ chính) */
+    --bg: #24405f !important;             /* Nền chính */
+    --haze: #1a1f27;           /* Nền phụ */
+    --gray: #ccc;              /* Chữ xám */
+    --accent: #00bfa6;         /* Màu nhấn (link, nút) */
+    --text: #e0e0e0;           /* Màu chữ */
+    --text-hover: #ffffff;     /* Chữ khi hover */
+    --header-text: var(--accent);
+    --theme: #0f9e8b !important;          /* Accent chung */
+    --post-bg: #151b23;        /* Nền bài viết */
+    --footer-bg: #111820;      /* Nền footer */
+    --shadow: rgba(0, 0, 0, 0.3);
+}
+
+
+/* 🎯 Tiêu đề danh sách nổi bật */
+.featured-posts h3,
+.sidebar .featured-title {
+  color: var(--theme); /* Hoặc màu bạn muốn */
+}
+
+/* 🎯 Link đến bài viết nổi bật */
+.featured-posts a,
+.sidebar .featured-list a {
+  color: #0077b8; /* Màu chữ mặc định */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.featured-posts a:hover,
+.sidebar .featured-list a:hover {
+  color: #00bfa6; /* Màu khi hover */
+}

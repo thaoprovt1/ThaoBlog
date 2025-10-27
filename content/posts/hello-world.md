@@ -14,7 +14,8 @@ Do đây là bài đầu tiên được tạo nên mình sẽ giới thiệu sơ
 
 Một phần lí do bài viết này có tiêu đề là Hello World cũng do từ khóa "Hello World" là linh hồn của dân IT và cũng như là lời chào đầu tiên gửi đến thế giới từ chương trình của một lập trình viên, mình thật sự rất biết ơn những người tiên phong đã tạo ra một bầu trời mới cho nền công nghệ hiện nay.
 
-"Hello, World!" trong lập trình bắt nguồn từ cuốn sách "A Tutorial Introduction to the Programming Language B" xuất bản năm 1973 và được Brian Kernighan sử dụng để làm ví dụ trong cuốn "The C Programming Language" năm 1978, với bối cảnh là một ví dụ đơn giản để bắt đầu một ngôn ngữ lập trình. Nó còn có cả một bộ phim hoạt hình cùng tên là "Hello World" ra mắt tại Nhật Bản vào năm 2019! :D
+"Hello, World!" trong lập trình bắt nguồn từ cuốn sách "A Tutorial Introduction to the Programming Language B" xuất bản năm 1973 và được [Brian Kernighan](https://vi.wikipedia.org/wiki/Brian_Kernighan) sử dụng để làm ví dụ trong cuốn "The C Programming Language" năm 1978, với bối cảnh là một ví dụ đơn giản để bắt đầu một ngôn ngữ lập trình. Nó còn có cả một bộ phim hoạt hình cùng tên là "Hello World" ra mắt tại Nhật Bản vào năm 2019! :D
+![Ảnh chụp ngài Brian Kernighan tại Bell Labs năm 2012](images/Ngai_Brian_Kernighan.jpg)
 
 - **Bối cảnh và thời gian ra đời** 
 Thời gian: Năm 1973, trong cuốn sách "A Tutorial Introduction to the Programming Language B".

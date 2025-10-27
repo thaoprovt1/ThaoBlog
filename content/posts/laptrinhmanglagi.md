@@ -136,4 +136,4 @@ public class Client {
 Và đó, chính là "Lập trình mạng máy tính", một cách để các "máy" giao tiếp với nhau! 
 > Lưu ý: Code trên chỉ là code nhỏ để làm mẫu, không có tính thực dụng, không nên dùng trong các công việc quan trọng.
 
-💡 Bài viết khác nên xem: [Học lập trình mạng cần ngôn ngữ gì?](/ThaoBlog/posts/ngonngucanthiet).
+💡 Bài viết khác nên xem: [Học lập trình mạng cần gì?](/ThaoBlog/posts/ngonngucanthiet).

@@ -15,7 +15,11 @@ defaultContentLanguage = "vi"
   showDate = true
   enableMath = false
   mainSections = ["posts"]
-  enableSearch = true
+  enableSearch = false
+  customCSS = ["css/custom.css"]
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 [menu]
   [[menu.main]]
