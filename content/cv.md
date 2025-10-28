@@ -1,5 +1,6 @@
 ---
 title: "CV - Lê Quang Thảo"
+draft: false
 ---
 
 ![Ảnh đại diện](images/MyPicture(evensmaller).jpg)
@@ -26,6 +27,6 @@ Dù là sinh viên nhưng vẫn đang cố gắng vừa học vừa triển khai
 ### **Chứng chỉ cisco**
 |  |  |
 |-----|-----|
-| ![Networking Basics](images/networkingbasics.png) | ![JavaScript Essentials 1](images/jsEssentials1.png)
+| ![Networking Basics](images/networkingbasics.png) | ![JavaScript Essentials 1](images/jsEssentials1.png) |
 |![JavaScript Essentials 2](images/jsEssentials2.png)|
 
