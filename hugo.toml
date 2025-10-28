@@ -32,6 +32,11 @@ defaultContentLanguage = "vi"
     url = "/about/"
     weight = 2
 
+  [[menu.main]]
+    name = "CV"
+    url = "/cv/"
+    weight = 3
+
 [security]
   [security.sri]
     enable = false
