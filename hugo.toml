@@ -8,6 +8,11 @@ defaultContentLanguage = "vi"
 [pagination]
   pagerSize = 10
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      
 [params]
   author = "Thảo 666"
   description = "Blog cá nhân của Thảo — chia sẻ kiến thức về lập trình và công nghệ."

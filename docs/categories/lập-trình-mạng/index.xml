@@ -185,7 +185,7 @@ Nó chỉ khó nếu mình chưa đủ cố gắng thôi!&lt;/p&gt;
       <description>
         
           
-            &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a id=&#34;TCP&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&#34;giao-thức-tcp-tranmission-control-protocol-la-gi&#34;&gt;&lt;strong&gt;Giao thức TCP (Tranmission Control Protocol) là gì?&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;figure&gt;
   &lt;picture&gt;

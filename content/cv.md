@@ -2,8 +2,25 @@
 title: "CV - Lê Quang Thảo"
 draft: false
 ---
+<style>
+.cv-avatar {
+  display: block;
+  margin: 0 auto 1rem auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid rgba(255,255,255,0.8);
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cv-avatar:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(0,0,0,0.4);
+}
+</style>
 
-![Ảnh đại diện](images/MyPicture(evensmaller).jpg)
+<img src="/ThaoBlog/images/MyPicture(evensmaller).jpg" class="cv-avatar" />
 
 ### **Giới thiệu**  
 Mình là một sinh viên học lập trình với đam mê phát triển game và công nghệ.  
@@ -28,4 +45,3 @@ Dù là sinh viên nhưng vẫn đang cố gắng vừa học vừa triển khai
 |  |  |  | 
 |-----|-----|-----|
 | ![Networking Basics](images/networkingbasics.png) | ![JavaScript Essentials 1](images/jsEssentials1.png) |![JavaScript Essentials 2](images/jsEssentials2.png)|
-
