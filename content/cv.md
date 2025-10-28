@@ -26,6 +26,6 @@ Dù là sinh viên nhưng vẫn đang cố gắng vừa học vừa triển khai
 ### **Chứng chỉ cisco**
 |  |  |
 |-----|-----|
-| ![Networking Basics](images/networkingbasics.png) | ![JavaScript Essentials 1](images/jsessentials1.png)
-|![JavaScript Essentials 2](images/jsessentials2.png)|
+| ![Networking Basics](images/networkingbasics.png) | ![JavaScript Essentials 1](images/jsEssentials1.png)
+|![JavaScript Essentials 2](images/jsEssentials2.png)|
 
